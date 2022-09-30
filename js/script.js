@@ -1,4 +1,4 @@
-let url = "http://localhost:3000/"
+let url = "https://asas12as.github.io/Bako/API/"
 localStorage.setItem("time", 1)
 if (localStorage.getItem("loginAs") != "") {
     document.getElementById('Login').classList.remove('d-block')
