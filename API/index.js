@@ -2,7 +2,6 @@ const express = require('express');
 var cors = require('cors')
 let fs = require("fs")
 const app = express();
-const port = 3000;
 
 let users = require("./users&passwords.json")
 let userPoints = require("./points.json")
